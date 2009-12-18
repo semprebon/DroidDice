@@ -1,0 +1,5 @@
+DroidDice source code copyright is owned by Andrew Semprebon, and is licensed under the GNU General Public License version 3 (GPLv3)
+
+See http://www.opensource.org/licenses/gpl-3.0.html for terms
+
+You may contact me at semprebon@gmail.com

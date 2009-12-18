@@ -1,3 +1,4 @@
+/* Copyright (C) 2009 Andrew Semprebon */
 package com.droiddice;
 
 import java.util.Arrays;
