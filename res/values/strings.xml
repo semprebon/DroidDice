@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_menu_text">Add Dice Set</string>
+    <string name="app_name">DroidDice</string>
+
+
+
+<string name="name">Name</string>
+<string name="dice">Dice</string>
+<string name="confirm">Save</string>
+<string name="delete_menu_text">Delete Dice Set</string>
+<string name="alert_dialog_ok">Ok</string>
+<string name="alert_dialog_cancel">Cancel</string>
+<string name="confirm_delete_dialog_title">Delete?</string>
+<string name="confirm_delete_dialog_text">Delete this dice set?</string>
+<string name="dice_set_edit_add_button">Add Dice</string>
+<string name="edit_menu_text">Edit Dice Set</string>
+<string name="dice_sets_label">Dice Sets</string>
+<string name="click_to_add">Click on a die to add it</string>
+<string name="click_to_delete">Click on a die to remove it</string>
+<string name="edit_dice_sets_menu_text">Modify Dice Sets</string>
+</resources>

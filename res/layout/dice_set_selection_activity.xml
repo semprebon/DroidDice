@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:scrollbars="vertical"
+	android:fillViewport="true" android:layout_height="fill_parent"
+	android:layout_weight="2">
+
+	<com.droiddice.DiceSetSelectionGrid android:layout_width="fill_parent"
+		android:numColumns="2" android:id="@+id/dice_set_selection_activity_grid"
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:horizontalSpacing="4sp" android:verticalSpacing="4sp"
+		android:layout_height="fill_parent">
+	</com.droiddice.DiceSetSelectionGrid>
+</ScrollView>

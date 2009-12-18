@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   sodipodi:docbase="C:\Projects\Dice\doc"
+   sodipodi:docname="dice.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient6449">
+      <stop
+         style="stop-color:white;stop-opacity:0.78350514;"
+         offset="0"
+         id="stop6451" />
+      <stop
+         id="stop6459"
+         offset="0.51785713"
+         style="stop-color:white;stop-opacity:0.78350514;" />
+      <stop
+         id="stop6457"
+         offset="1"
+         style="stop-color:white;stop-opacity:0;" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6449"
+       id="radialGradient6455"
+       cx="220.7941"
+       cy="370.82309"
+       fx="220.7941"
+       fy="370.82309"
+       r="15.963979"
+       gradientTransform="matrix(1,0,0,0.923077,0,28.52486)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.0716667"
+     inkscape:cx="171.68151"
+     inkscape:cy="642.39185"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="951"
+     inkscape:window-height="894"
+     inkscape:window-x="228"
+     inkscape:window-y="46" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="opacity:1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Dice">
+    <path
+       style="fill:#c1c1c1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1"
+       d="M 186.25,281.29075 L 218.73528,240.14231 L 211.42857,297.46373 L 186.25,281.29075 z "
+       id="path2828"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\die_4.png"
+       inkscape:export-xdpi="177.36"
+       inkscape:export-ydpi="177.36" />
+    <path
+       style="fill:#dfdfdf;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1"
+       d="M 218.75,240.21932 L 247.14286,280.93361 L 211.42857,297.54075 L 218.75,240.21932 z "
+       id="path2830"
+       inkscape:export-filename="C:\Projects\Dice\doc\die_4.png"
+       inkscape:export-xdpi="177.36"
+       inkscape:export-ydpi="177.36" />
+    <path
+       style="fill:#cbcbcb;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1"
+       d="M 280.17857,296.6479 L 280,255.3979 L 326.25,255.57647 L 326.42857,296.46932 L 280.17857,296.6479 z "
+       id="path2832"
+       inkscape:export-filename="C:\Projects\Dice\doc\path2836.png"
+       inkscape:export-xdpi="160.17999"
+       inkscape:export-ydpi="160.17999" />
+    <path
+       style="fill:#e6e6e6;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1"
+       d="M 279.99019,255.47001 C 280.88304,254.75573 301.60714,241.46932 301.60714,241.46932 L 347.14286,241.46932 L 326.60714,255.3979 L 279.99019,255.47001 z "
+       id="path2834"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\path2836.png"
+       inkscape:export-xdpi="160.17999"
+       inkscape:export-ydpi="160.17999" />
+    <path
+       style="fill:#dfdfdf;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;fill-opacity:1"
+       d="M 326.43348,296.46441 L 326.25,255.21932 L 347.41317,241.54634 L 347.32143,282.18361 L 326.43348,296.46441 z "
+       id="path2836"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="160.17999"
+       inkscape:export-ydpi="160.17999" />
+    <path
+       style="fill:#cacaca;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 180.53571,373.43361 L 213.76126,335.75504 L 226.42857,373.61218 L 180.53571,373.43361 z "
+       id="path2838"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\path2844.png"
+       inkscape:export-xdpi="162.14"
+       inkscape:export-ydpi="162.14" />
+    <path
+       style="fill:#e6e6e6;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 226.42857,373.43361 L 213.75,335.57647 L 247.14286,359.86218 L 226.42857,373.43361 z "
+       id="path2840"
+       inkscape:export-filename="C:\Projects\Dice\doc\path2844.png"
+       inkscape:export-xdpi="162.14"
+       inkscape:export-ydpi="162.14" />
+    <path
+       style="fill:#bfbfbf;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 214.28571,397.54075 L 180.72554,373.25504 L 226.42857,373.61218 L 214.28571,397.54075 z "
+       id="path2842"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\path2844.png"
+       inkscape:export-xdpi="162.14"
+       inkscape:export-ydpi="162.14" />
+    <path
+       style="fill:#d0d0d0;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 214.21869,397.54075 L 226.25,373.43361 L 247.14286,359.68361 L 214.21869,397.54075 z "
+       id="path2844"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-xdpi="162.14"
+       inkscape:export-ydpi="162.14" />
+    <path
+       style="fill:#bcbcbc;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 314.47554,336.17253 L 284.10714,364.61668 L 291.4956,378.75343 L 306.25,375.99434 L 314.47554,336.17253 z "
+       id="path2846"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\path2854.png"
+       inkscape:export-xdpi="176.50066"
+       inkscape:export-ydpi="176.50066" />
+    <path
+       style="fill:#c8c8c8;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 314.28571,336.17253 L 306.25,375.85559 L 323.63846,382.62254 L 337.6228,370.79671 L 314.28571,336.17253 z "
+       id="path2848"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\path2854.png"
+       inkscape:export-xdpi="176.50066"
+       inkscape:export-ydpi="176.50066" />
+    <path
+       style="fill:#e6e6e6;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 314.46429,336.31128 L 337.38846,370.62606 L 342.32143,368.77924 L 336.78571,355.87531 L 314.46429,336.31128 z "
+       id="path2850"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\path2854.png"
+       inkscape:export-xdpi="176.50066"
+       inkscape:export-ydpi="176.50066" />
+    <path
+       style="fill:#b5b5b5;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 313.92857,397.36214 L 291.4956,378.64658 L 306.42857,375.99434 L 323.75,382.65444 L 313.92857,397.36214 z "
+       id="path2852"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\path2854.png"
+       inkscape:export-xdpi="176.50066"
+       inkscape:export-ydpi="176.50066" />
+    <path
+       style="fill:#c3c3c3;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 314.04011,397.22339 L 323.75,382.37694 L 337.36594,370.41236 L 342.32143,368.91799 L 314.04011,397.22339 z "
+       id="path2854"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="176.50066"
+       inkscape:export-ydpi="176.50066" />
+    <path
+       style="fill:#e6e6e6;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 184.64286,437.18361 L 200,425.75504 L 229.46429,428.79075 L 230.17857,443.07647 L 203.29257,448.08772 L 184.64286,437.18361 z "
+       id="path2856"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d12.png"
+       inkscape:export-xdpi="162.12"
+       inkscape:export-ydpi="162.12" />
+    <path
+       style="fill:#cfcfcf;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 184.65411,437.30641 L 203.57143,448.25504 L 202.38846,468.43361 L 185.17857,468.96932 L 176.07143,454.50504 L 184.65411,437.30641 z "
+       id="path2858"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d12.png"
+       inkscape:export-xdpi="162.12"
+       inkscape:export-ydpi="162.12" />
+    <path
+       style="fill:#dadada;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 203.39286,448.07647 L 202.32143,468.79075 L 221.96429,473.96932 L 236.7412,460.3979 L 230,443.07647 L 203.39286,448.07647 z "
+       id="path2860"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d12.png"
+       inkscape:export-xdpi="162.12"
+       inkscape:export-ydpi="162.12" />
+    <path
+       style="fill:#dfdfdf;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 229.64286,443.25504 L 236.60714,460.28635 L 242.68983,458.19927 L 239.10714,448.96932 L 229.46429,428.79075 L 229.64286,443.25504 z "
+       id="path2862"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d12.png"
+       inkscape:export-xdpi="162.12"
+       inkscape:export-ydpi="162.12" />
+    <path
+       style="fill:#b4b4b4;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 176.07143,454.61658 L 182.5,471.82647 L 189.82194,486.82647 L 185.35714,468.96932 L 176.07143,454.61658 z "
+       id="path2864"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d12.png"
+       inkscape:export-xdpi="162.12"
+       inkscape:export-ydpi="162.12" />
+    <path
+       style="fill:#bebebe;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 189.68789,486.62538 L 185.22309,468.91355 L 202.5,468.43361 L 221.25,473.61218 L 216.36103,489.9287 L 189.68789,486.62538 z "
+       id="path2866"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d12.png"
+       inkscape:export-xdpi="162.12"
+       inkscape:export-ydpi="162.12" />
+    <path
+       style="fill:#cacaca;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 216.11544,489.9287 L 221.18297,473.50064 L 236.78571,460.04075 L 242.67857,458.25504 L 231.65114,479.86218 L 216.11544,489.9287 z "
+       id="path2868"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-xdpi="162.12"
+       inkscape:export-ydpi="162.12"
+       inkscape:export-filename="C:\Projects\Dice\doc\d12.png" />
+    <path
+       style="fill:#d0d0d0;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 311.42857,427.16212 L 278.92857,452.71932 L 303.75,471.29075 L 311.42857,427.16212 z "
+       id="path2870"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d20.png"
+       inkscape:export-xdpi="155.17845"
+       inkscape:export-ydpi="155.17845" />
+    <path
+       style="fill:#dadada;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 311.29451,427.15087 L 303.57143,471.29075 L 340.53572,463.07647 L 311.29451,427.15087 z "
+       id="path2872"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d20.png"
+       inkscape:export-xdpi="155.17845"
+       inkscape:export-ydpi="155.17845" />
+    <path
+       style="fill:#e5e5e5;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 311.21623,427.3407 L 340.89286,463.43361 L 338.92857,439.32647 L 311.21623,427.3407 z "
+       id="path2874"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d20.png"
+       inkscape:export-xdpi="155.17845"
+       inkscape:export-ydpi="155.17845" />
+    <path
+       style="fill:#b7b7b7;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 278.75,452.64104 L 286.42857,482.18361 L 303.76126,471.10092 L 278.75,452.64104 z "
+       id="path2876"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d20.png"
+       inkscape:export-xdpi="155.17845"
+       inkscape:export-ydpi="155.17845" />
+    <path
+       style="fill:#bababa;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 303.5044,471.21247 L 324.69863,488.50064 L 340.2456,463.13224 L 303.5044,471.21247 z "
+       id="path2878"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d20.png"
+       inkscape:export-xdpi="155.17845"
+       inkscape:export-ydpi="155.17845" />
+    <path
+       style="fill:#e3e3e3;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 340.17857,462.8979 L 346.78572,468.25504 L 338.92857,439.32647 L 340.17857,462.8979 z "
+       id="path2880"
+       inkscape:export-filename="C:\Projects\Dice\doc\d20.png"
+       inkscape:export-xdpi="155.17845"
+       inkscape:export-ydpi="155.17845" />
+    <path
+       style="fill:#adadad;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 286.47309,482.17235 L 303.3816,471.10092 L 324.64286,488.43361 L 286.47309,482.17235 z "
+       id="path2882"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d20.png"
+       inkscape:export-xdpi="155.17845"
+       inkscape:export-ydpi="155.17845" />
+    <path
+       style="fill:#b9b9b9;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 324.7544,488.48938 L 340.35714,462.8979 L 346.96429,468.42235 L 324.7544,488.48938 z "
+       id="path2884"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d20.png"
+       inkscape:export-xdpi="155.17845"
+       inkscape:export-ydpi="155.17845" />
+    <path
+       style="fill:#999;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 286.78571,482.2839 L 312.67857,496.74818 L 324.69863,488.36658 L 286.78571,482.2839 z "
+       id="path2886"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Projects\Dice\doc\d20.png"
+       inkscape:export-xdpi="155.17845"
+       inkscape:export-ydpi="155.17845" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Blanks" />
+</svg>

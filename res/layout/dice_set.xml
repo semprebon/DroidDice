@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:dice="http://schemas.android.com/apk/res/com.droiddice"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/dice_set_button">
+
+	<TextView android:gravity="center_vertical|center_horizontal"
+		android:text="No Name" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal"
+		android:layout_weight="0.5" android:padding="2sp" android:textColor="@color/text_light"
+		android:textSize="9pt" android:id="@+id/dice_set_name" android:clickable="false"/>
+	<com.droiddice.DiceSetEditView
+		android:layout_weight=".3" android:layout_gravity="center_vertical|center_horizontal"
+		android:layout_width="wrap_content" android:layout_height="40sp"
+		android:id="@+id/dice_set_picture"/>
+</LinearLayout>
+
+	

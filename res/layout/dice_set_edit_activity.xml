@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background_dark">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/name"
+			android:layout_weight="0.2" />
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="0.8"
+			android:id="@+id/dice_set_edit_activity_name" />
+
+
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:background="@drawable/felt" android:layout_gravity="center"
+		android:orientation="vertical" android:layout_marginBottom="6sp" android:layout_height="150sp">
+		<TextView android:layout_height="wrap_content" android:text="@string/click_to_delete"
+			android:layout_gravity="top|center_horizontal" android:layout_width="wrap_content"
+			android:background="@color/felt_shadow" android:textColor="@color/text_light"
+			android:textSize="16sp" android:textStyle="bold" android:paddingLeft="8sp"
+			android:paddingRight="8sp"></TextView>
+		<com.droiddice.DiceSetEditView
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:id="@+id/dice_set_edit_activity_dice_set"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:layout_height="fill_parent" android:padding="4sp" />
+	</LinearLayout>
+
+	<LinearLayout android:background="@drawable/felt"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1" android:layout_gravity="center"
+		android:orientation="vertical">
+		<TextView android:layout_height="wrap_content" android:text="@string/click_to_add"
+			android:layout_gravity="top|center_horizontal" android:textSize="16sp"
+			android:layout_width="wrap_content" android:background="@color/felt_shadow"
+			android:paddingLeft="8sp" android:paddingRight="8sp"
+			android:textColor="@color/text_light" android:textStyle="bold"></TextView>
+			<GridView android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:layout_width="fill_parent" android:id="@+id/dice_set_edit_activity_die_selection"
+				android:layout_gravity="center_vertical|center_horizontal" android:numColumns="4">
+
+			</GridView>
+	</LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:dice="http://schemas.android.com/apk/res/com.droiddice"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/felt" android:padding="4sp">
+
+	<TextView android:gravity="center_vertical|center_horizontal"
+		android:text="No Name" android:layout_gravity="center_vertical|center_horizontal"
+		android:layout_weight="0.5" android:textColor="@color/text_light"
+		android:id="@+id/die_set_selection_item_name"
+		android:clickable="false" android:layout_height="fill_parent" android:layout_width="wrap_content" android:textStyle="bold" android:typeface="sans" android:background="@color/felt_shadow" android:textSize="12sp" android:paddingLeft="4sp" android:paddingRight="4sp" android:layout_marginLeft="12sp" android:layout_marginRight="12sp"/>
+	<com.droiddice.DiceSetView
+		android:layout_gravity="center_vertical|center_horizontal" android:id="@+id/dice_set_selection_item_dice"
+		android:layout_height="fill_parent" android:layout_weight=".5"
+		android:layout_width="fill_parent" android:orientation="horizontal" android:padding="2sp">
+		<com.droiddice.DieView android:layout_gravity="center_vertical|center_horizontal"
+			android:id="@+id/dice_set_selection_item_die" android:layout_height="fill_parent"
+			android:layout_weight=".5" android:layout_width="wrap_content" />
+	</com.droiddice.DiceSetView>
+
+</LinearLayout>
+
+	

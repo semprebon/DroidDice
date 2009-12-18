@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docbase="C:\Projects\Dice\doc"
+   sodipodi:docname="dice_images_grey.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3449">
+      <stop
+         style="stop-color:#b2b2b2;stop-opacity:1;"
+         offset="0"
+         id="stop3451" />
+      <stop
+         style="stop-color:#8f8f8f;stop-opacity:1;"
+         offset="1"
+         id="stop3453" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3265">
+      <stop
+         style="stop-color:#dfdfdf;stop-opacity:1;"
+         offset="0"
+         id="stop3267" />
+      <stop
+         style="stop-color:#c9c9c9;stop-opacity:1;"
+         offset="1"
+         id="stop3269" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3249">
+      <stop
+         style="stop-color:#c1c1c1;stop-opacity:1;"
+         offset="0"
+         id="stop3251" />
+      <stop
+         style="stop-color:#c1c1c1;stop-opacity:0;"
+         offset="1"
+         id="stop3253" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3241">
+      <stop
+         style="stop-color:#ebebeb;stop-opacity:1;"
+         offset="0"
+         id="stop3243" />
+      <stop
+         style="stop-color:#c6c6c6;stop-opacity:1;"
+         offset="1"
+         id="stop3245" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3233">
+      <stop
+         style="stop-color:#e3e3e3;stop-opacity:1;"
+         offset="0"
+         id="stop3235" />
+      <stop
+         style="stop-color:#cacaca;stop-opacity:1;"
+         offset="1"
+         id="stop3237" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3223">
+      <stop
+         style="stop-color:#f8f8f8;stop-opacity:1;"
+         offset="0"
+         id="stop3225" />
+      <stop
+         style="stop-color:#dedede;stop-opacity:1;"
+         offset="1"
+         id="stop3227" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3215">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop3217" />
+      <stop
+         style="stop-color:#b5b5b5;stop-opacity:1;"
+         offset="1"
+         id="stop3219" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3207">
+      <stop
+         style="stop-color:#dcdcdc;stop-opacity:1;"
+         offset="0"
+         id="stop3209" />
+      <stop
+         style="stop-color:#cacaca;stop-opacity:1;"
+         offset="1"
+         id="stop3211" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective4460" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3207"
+       id="radialGradient3213"
+       cx="593.26259"
+       cy="181.20663"
+       fx="593.26259"
+       fy="181.20663"
+       r="98.407056"
+       gradientTransform="matrix(1,0,0,1.5389146,0,-97.654905)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3223"
+       id="radialGradient3229"
+       cx="172.53406"
+       cy="476.07016"
+       fx="172.53406"
+       fy="476.07016"
+       r="56.934305"
+       gradientTransform="matrix(0.9187156,8.0628158e-2,-8.2947012e-2,1.0092994,53.51293,-18.338238)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3215"
+       id="linearGradient3231"
+       x1="445.13751"
+       y1="226.52544"
+       x2="525.2334"
+       y2="181.91374"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3233"
+       id="radialGradient3239"
+       cx="439.22775"
+       cy="671.36218"
+       fx="439.22775"
+       fy="671.36218"
+       r="65.177994"
+       gradientTransform="matrix(1,0,0,1.4986345,0,-334.76438)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3223"
+       id="radialGradient3247"
+       cx="518.29584"
+       cy="699.13202"
+       fx="518.29584"
+       fy="699.13202"
+       r="119.17799"
+       gradientTransform="matrix(1,0,0,0.8154022,0,123.83971)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3207"
+       id="radialGradient3255"
+       cx="110.91348"
+       cy="795.50824"
+       fx="110.91348"
+       fy="795.50824"
+       r="61.256214"
+       gradientTransform="matrix(1,0,0,1.4815838,0,-379.66244)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3223"
+       id="radialGradient3263"
+       cx="197.87639"
+       cy="823.78827"
+       fx="197.87639"
+       fy="823.78827"
+       r="89.756218"
+       gradientTransform="matrix(1,0,0,1.17269,0,-138.47357)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3207"
+       id="radialGradient3271"
+       cx="460.5"
+       cy="764.36218"
+       fx="460.5"
+       fy="764.36218"
+       r="66.27227"
+       gradientTransform="matrix(1,0,0,0.8113842,0,144.17081)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3223"
+       id="radialGradient3279"
+       cx="531.5"
+       cy="831.36218"
+       fx="531.5"
+       fy="831.36218"
+       r="84.27227"
+       gradientTransform="matrix(1,0,0,1.0296657,0,-24.662981)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3223"
+       id="radialGradient3287"
+       cx="195.9138"
+       cy="216.93311"
+       fx="195.9138"
+       fy="216.93311"
+       r="110.08417"
+       gradientTransform="matrix(1,0,0,0.8623573,0,29.859261)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3223"
+       id="radialGradient3295"
+       cx="213"
+       cy="801.86218"
+       fx="213"
+       fy="801.86218"
+       r="89.756218"
+       gradientTransform="matrix(1,0,0,1.17269,0,-138.47357)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3223"
+       id="radialGradient3303"
+       cx="213"
+       cy="801.86218"
+       fx="213"
+       fy="801.86218"
+       r="89.756218"
+       gradientTransform="matrix(1,0,0,1.17269,0,-138.47357)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3207"
+       id="radialGradient3311"
+       cx="98.691704"
+       cy="203.03638"
+       fx="98.691704"
+       fy="203.03638"
+       r="86.087975"
+       gradientTransform="matrix(1,0,0,1.1114726,0,-24.209681)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3207"
+       id="radialGradient3319"
+       cx="121.5"
+       cy="788.36218"
+       fx="121.5"
+       fy="788.36218"
+       r="61.256214"
+       gradientTransform="matrix(1,0,0,1.4815838,0,-379.66244)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3207"
+       id="radialGradient3327"
+       cx="121.5"
+       cy="788.36218"
+       fx="121.5"
+       fy="788.36218"
+       r="61.256214"
+       gradientTransform="matrix(1,0,0,1.4815838,0,-379.66244)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3207"
+       id="radialGradient3335"
+       cx="446"
+       cy="887.86218"
+       fx="446"
+       fy="887.86218"
+       r="52.77227"
+       gradientTransform="matrix(1,0,0,1.577955,0,-513.14442)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3207"
+       id="radialGradient3343"
+       cx="107.02546"
+       cy="382.59305"
+       fx="107.02546"
+       fy="382.59305"
+       r="87.350662"
+       gradientTransform="matrix(1,0,0,0.8034063,0,75.215382)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3207"
+       id="radialGradient3351"
+       cx="49.204376"
+       cy="284.35571"
+       fx="49.204376"
+       fy="284.35571"
+       r="38.095577"
+       gradientTransform="matrix(1,0,0,2.5912426,0,-452.4789)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3215"
+       id="linearGradient3359"
+       x1="241.14795"
+       y1="495.15778"
+       x2="229.95399"
+       y2="493.87158"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3265"
+       id="linearGradient3367"
+       x1="511.31155"
+       y1="843.04016"
+       x2="516.7879"
+       y2="770.24298"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3215"
+       id="linearGradient3375"
+       x1="178.13721"
+       y1="548.6524"
+       x2="179.32333"
+       y2="533.90637"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3265"
+       id="linearGradient3383"
+       x1="166.54726"
+       y1="929.57471"
+       x2="175.84831"
+       y2="885.71216"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3215"
+       id="linearGradient3391"
+       x1="292.07077"
+       y1="760.76221"
+       x2="257.2865"
+       y2="791.01215"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3215"
+       id="linearGradient3399"
+       x1="544"
+       y1="990.1344"
+       x2="544"
+       y2="900.58997"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3215"
+       id="linearGradient3407"
+       x1="655.77234"
+       y1="882.43994"
+       x2="605.22766"
+       y2="862.36218"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3207"
+       id="radialGradient3415"
+       cx="195.66635"
+       cy="376.53214"
+       fx="195.66635"
+       fy="376.53214"
+       r="111.34179"
+       gradientTransform="matrix(1,0,0,0.6801931,0,120.41758)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3215"
+       id="linearGradient3423"
+       x1="324.68588"
+       y1="185.11319"
+       x2="265.7244"
+       y2="212.62471"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3215"
+       id="linearGradient3431"
+       x1="297.69559"
+       y1="772.86218"
+       x2="267.87302"
+       y2="795.54968"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3265"
+       id="linearGradient3439"
+       x1="175.4192"
+       y1="941.19586"
+       x2="161.97928"
+       y2="897.94458"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3265"
+       id="linearGradient3447"
+       x1="178.64615"
+       y1="931.08716"
+       x2="171.31122"
+       y2="888.73718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3449"
+       id="linearGradient3455"
+       x1="288.70435"
+       y1="388.32278"
+       x2="264.09909"
+       y2="354.91592"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="261.30064"
+     inkscape:cy="689.74505"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1106"
+     inkscape:window-height="968"
+     inkscape:window-x="120"
+     inkscape:window-y="4"
+     showgrid="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3347"
+       transform="matrix(0.5088075,0,0,0.5088777,417.93922,194.68707)"
+       inkscape:export-filename="C:\Projects\droiddice\res\drawable\d20_60.png"
+       inkscape:export-xdpi="31.17697"
+       inkscape:export-ydpi="31.17697"
+       style="stroke:none;stroke-width:1.96524440999999990;stroke-opacity:1">
+      <path
+         inkscape:export-ydpi="12.728303"
+         inkscape:export-xdpi="12.728303"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\icon_d20.png"
+         sodipodi:nodetypes="cccc"
+         id="path1933"
+         d="M 86.81226,310.88236 L 184.30213,121.59429 L 305.01536,302.24451 L 86.81226,310.88236 z"
+         style="fill:url(#radialGradient3287);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.96524440999999990px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="12.728303"
+         inkscape:export-xdpi="12.728303"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\icon_d20.png"
+         id="path1935"
+         d="M 84.815835,310.89981 L 192.38335,451.28341 L 306.02551,301.78083 L 84.815835,310.89981 z"
+         style="fill:url(#radialGradient3415);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.96524440999999990px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:nodetypes="cccc" />
+      <path
+         inkscape:export-ydpi="12.728303"
+         inkscape:export-xdpi="12.728303"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\icon_d20.png"
+         sodipodi:nodetypes="cccc"
+         id="path1937"
+         d="M 183.79705,122.47876 L 13.58635,186.11837 L 86.31733,311.88236 L 183.79705,122.47876 z"
+         style="fill:url(#radialGradient3311);fill-opacity:1.0;fill-rule:evenodd;stroke:none;stroke-width:1.96524440999999990px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="12.728303"
+         inkscape:export-xdpi="12.728303"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\icon_d20.png"
+         id="path1939"
+         d="M 183.79705,122.47876 L 159.04831,113.38738 L 14.09142,186.11837 L 183.79705,122.47876 z"
+         style="fill:#d4d4d4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.96524440999999990px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="12.728303"
+         inkscape:export-xdpi="12.728303"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\icon_d20.png"
+         sodipodi:nodetypes="cccc"
+         id="path1941"
+         d="M 184.78691,123.4686 L 323.70318,177.02699 L 305.5479,302.76338 L 184.78691,123.4686 z"
+         style="fill:url(#linearGradient3423);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.96524440999999990px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="12.728303"
+         inkscape:export-xdpi="12.728303"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\icon_d20.png"
+         id="path1943"
+         d="M 323.1981,176.01684 L 333.80471,366.4306 L 305.5479,302.24451 L 323.1981,176.01684 z"
+         style="fill:#858585;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.96524440999999990px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:nodetypes="cccc" />
+      <path
+         inkscape:export-ydpi="12.728303"
+         inkscape:export-xdpi="12.728303"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\icon_d20.png"
+         sodipodi:nodetypes="cccc"
+         id="path1945"
+         d="M 334.81486,366.4306 L 306.02551,302.28591 L 192.40066,451.26961 L 334.81486,366.4306 z"
+         style="fill:url(#linearGradient3455);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.96524440999999990px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="12.728303"
+         inkscape:export-xdpi="12.728303"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\icon_d20.png"
+         sodipodi:nodetypes="cccc"
+         id="path1947"
+         d="M 193.3935,451.78849 L 20.65742,382.08796 L 86.303605,311.92376 L 193.3935,451.78849 z"
+         style="fill:url(#radialGradient3343);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.96524440999999990px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="12.728303"
+         inkscape:export-xdpi="12.728303"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\icon_d20.png"
+         sodipodi:nodetypes="cccc"
+         id="path1949"
+         d="M 21.121295,382.08796 L 14.0568,186.62344 L 86.31733,311.89251 L 21.121295,382.08796 z"
+         style="fill:url(#radialGradient3351);fill-opacity:1.0;fill-rule:evenodd;stroke:none;stroke-width:1.96524440999999990px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2838"
+       style="font-family:serif;font-size:144;font-weight:bold"><flowRegion
+         id="flowRegion2840"><rect
+           id="rect2842"
+           width="65.659912"
+           height="154.55334"
+           x="360.11938"
+           y="450.31128"
+           style="font-size:144px;font-weight:bold;font-family:serif" /></flowRegion><flowPara
+         id="flowPara2844">1</flowPara></flowRoot>    <g
+       id="g3366"
+       transform="matrix(0.7374517,0,0,0.7374856,122.65637,-389.22168)"
+       inkscape:export-filename="C:\Projects\droiddice\res\drawable\d8_60.png"
+       inkscape:export-xdpi="27.184019"
+       inkscape:export-ydpi="27.184019"
+       style="stroke:none;stroke-width:1.35598981000000010;stroke-opacity:1">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path3339"
+         d="M 519,574.36218 L 412,767.36218 L 649,752.36218 L 519,574.36218 z"
+         style="fill:url(#radialGradient3247);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.35598981000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path3341"
+         d="M 520,574.36218 L 391,676.36218 L 412,768.36218 L 520,574.36218 z"
+         style="fill:url(#radialGradient3239);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.35598981000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path3343"
+         d="M 518,574.36218 L 605,665.36218 L 650,751.36218 L 518,574.36218 z"
+         style="fill:#bababa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.35598981000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path3345"
+         d="M 649,752.36218 L 513,842.36218 L 413,767.36218 L 649,752.36218 z"
+         style="fill:url(#linearGradient3367);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.35598981000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4098"
+       inkscape:export-filename="C:\Projects\droiddice\res\drawable\d10_60.png"
+       inkscape:export-xdpi="32.09"
+       inkscape:export-ydpi="32.09"
+       style="stroke:none;stroke-width:1.51243067000000010;stroke-opacity:1"
+       transform="matrix(0.6612177,0,0,0.661157,-9.33428,-202.70372)">
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path3462"
+         d="M 182,697.36218 L 124,877.36218 L 225,906.36218 L 302,846.36218 L 182,697.36218 z"
+         style="fill:url(#radialGradient3263);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path3464"
+         d="M 182,698.36218 L 304,847.36218 L 314,834.36218 L 297,788.36218 L 182,698.36218 z"
+         style="fill:url(#linearGradient3391);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path3466"
+         d="M 182,698.36218 L 124,878.36218 L 69,868.36218 L 61,812.36218 L 182,698.36218 z"
+         style="fill:url(#radialGradient3255);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path3468"
+         d="M 225,907.36218 L 182,939.36218 L 69,868.36218 L 122,877.36218 L 225,907.36218 z"
+         style="fill:url(#linearGradient3383);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4104"
+       inkscape:export-filename="C:\Projects\droiddice\res\drawable\d12_60.png"
+       inkscape:export-xdpi="29.834253"
+       inkscape:export-ydpi="29.834253"
+       style="stroke:none;stroke-width:1.54454255000000010;stroke-opacity:1"
+       transform="matrix(0.6473997,0,0,0.647482,-24.075489,-209.23204)">
+      <path
+         id="path3528"
+         d="M 527,745.36218 L 448,817.36218 L 496,917.36218 L 605,901.36218 L 616.63834,800.27009 L 527,745.36218 z"
+         style="fill:url(#radialGradient3279);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.54454255000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         id="path3530"
+         d="M 518,711.36218 L 526.54611,746.26529 L 449,817.36218 L 395,805.90662 L 444,751.36218 L 518,711.36218 z"
+         style="fill:url(#radialGradient3271);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.54454255000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         id="path3532"
+         d="M 642.08928,784.36218 L 617,801.36218 L 526,745.36218 L 517,711.36218 L 591,751.36218 L 642.08928,784.36218 z"
+         style="fill:#bcbcbc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.54454255000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         id="path3534"
+         d="M 616.54611,801.36218 L 642,784.36218 L 655,871.36218 L 626,940.36218 L 605.36018,901.45266 L 616.54611,801.36218 z"
+         style="fill:url(#linearGradient3407);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.54454255000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="path3536"
+         d="M 626,938.36218 L 547,989.36218 L 462.54611,969.72405 L 498,917.36218 L 605,901.36218 L 626,938.36218 z"
+         style="fill:url(#linearGradient3399);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.54454255000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="path3538"
+         d="M 394,805.36218 L 397,909.36218 L 462,970.36218 L 498,917.94797 L 448.09223,816.90822 L 394,805.36218 z"
+         style="fill:url(#radialGradient3335);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.54454255000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g2144"
+       transform="matrix(1.3863199,-0.1173973,0.1216668,1.3376761,-7.5077943,-504.11386)"
+       inkscape:export-filename="C:\Projects\droiddice\res\drawable\d6_60.png"
+       inkscape:export-xdpi="31.804695"
+       inkscape:export-ydpi="31.804695"
+       style="stroke:none;stroke-width:1.28537130000000000;stroke-opacity:1">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2138"
+         d="M 129.40054,418.79451 L 229.1026,427.9869 L 215.66757,533.3458 L 115.96551,523.44631 L 129.40054,418.79451 z"
+         style="fill:url(#radialGradient3229);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.73152064999999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2140"
+         d="M 233.34524,551.73058 L 215.66757,531.93159 L 229.1026,426.57268 L 243.95184,459.09959 L 233.34524,551.73058 z"
+         style="fill:url(#linearGradient3359);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.73152064999999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2142"
+         d="M 144.95689,545.36662 L 115.96552,522.73921 L 216.37467,532.6387 L 234.75945,553.1448 L 144.95689,545.36662 z"
+         style="fill:url(#linearGradient3375);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.73152064999999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g2499"
+       inkscape:export-filename="C:\Projects\droiddice\res\drawable\d4_60.png"
+       inkscape:export-xdpi="29.321438"
+       inkscape:export-ydpi="29.321438"
+       style="stroke:none;stroke-width:1.65263200000000010;stroke-opacity:1"
+       transform="matrix(-0.6049683,0,0,0.6052225,464.63743,17.077382)">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2495"
+         d="M 541.64379,30.592883 L 495.68185,331.82037 L 690.84333,191.10612 L 541.64379,30.592883 z"
+         style="fill:url(#radialGradient3213);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.65263200000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2497"
+         d="M 437.6991,147.26551 L 540.93668,30.592883 L 495.68186,333.23459 L 437.6991,147.26551 z"
+         style="fill:url(#linearGradient3231);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.65263200000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5160"
+       inkscape:export-filename="C:\Projects\droiddice\res\drawable\d100_60.png"
+       inkscape:export-xdpi="22.02"
+       inkscape:export-ydpi="22.02"
+       style="stroke:none;stroke-width:1.51243067000000010;stroke-opacity:1"
+       transform="matrix(0.6526875,0.1058675,-0.1058577,0.6526275,92.251065,3.426332)">
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path5162"
+         d="M 182,697.36218 L 124,877.36218 L 225,906.36218 L 302,846.36218 L 182,697.36218 z"
+         style="fill:url(#radialGradient3295);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path5164"
+         d="M 182,698.36218 L 304,847.36218 L 314,834.36218 L 297,788.36218 L 182,698.36218 z"
+         style="fill:#bababa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path5166"
+         d="M 182,698.36218 L 124,878.36218 L 69,868.36218 L 61,812.36218 L 182,698.36218 z"
+         style="fill:url(#radialGradient3319);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path5168"
+         d="M 225,907.36218 L 182,939.36218 L 69,868.36218 L 122,877.36218 L 225,907.36218 z"
+         style="fill:url(#linearGradient3439);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5170"
+       inkscape:export-filename="C:\Projects\droiddice\res\drawable\d100_60.png"
+       inkscape:export-xdpi="22.02"
+       inkscape:export-ydpi="22.02"
+       style="stroke:none;stroke-width:1.51243067000000010;stroke-opacity:1"
+       transform="matrix(0.6612177,0,0,0.661157,82.02168,19.2963)">
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path5172"
+         d="M 182,697.36218 L 124,877.36218 L 225,906.36218 L 302,846.36218 L 182,697.36218 z"
+         style="fill:url(#radialGradient3303);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path5174"
+         d="M 182,698.36218 L 304,847.36218 L 314,834.36218 L 297,788.36218 L 182,698.36218 z"
+         style="fill:url(#linearGradient3431);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path5176"
+         d="M 182,698.36218 L 124,878.36218 L 69,868.36218 L 61,812.36218 L 182,698.36218 z"
+         style="fill:url(#radialGradient3327);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="21.26"
+         inkscape:export-xdpi="21.26"
+         inkscape:export-filename="C:\Projects\Dice\res\drawable\d10_60.png"
+         id="path5178"
+         d="M 225,907.36218 L 182,939.36218 L 69,868.36218 L 122,877.36218 L 225,907.36218 z"
+         style="fill:url(#linearGradient3447);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.51243067000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

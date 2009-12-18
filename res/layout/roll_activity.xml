@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:dice="http://schemas.android.com/apk/res/com.droiddice"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background_dark">
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="@drawable/title" android:layout_marginLeft="4sp"></ImageView>
+	<com.droiddice.RollAreaView android:id="@+id/roll_activity_roll_area"
+		android:layout_width="fill_parent" android:orientation="vertical"
+		android:background="@drawable/felt"
+		android:layout_weight="0.1" android:padding="4sp" android:layout_height="110sp">
+
+		<TextView android:layout_height="wrap_content"
+			android:gravity="center_vertical|center_horizontal" android:text="No Name"
+			android:textColor="@color/text_light" android:id="@+id/roll_activity_name"
+			android:typeface="sans" android:layout_width="wrap_content"
+			android:layout_gravity="top|center_horizontal" android:background="@color/felt_shadow"
+			android:textSize="16sp" android:textStyle="bold" android:paddingLeft="8sp"
+			android:paddingRight="8sp">
+		</TextView>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:orientation="horizontal"
+			android:id="@+id/roll_activity_roll_parent">
+			<com.droiddice.DiceSetView
+				android:stretchMode="columnWidth" android:layout_gravity="center_vertical|center_horizontal"
+				android:layout_width="fill_parent" dice:textSize="10pt"
+				android:id="@+id/roll_activity_dice_set" android:layout_weight="1"
+				android:minHeight="70sp" android:layout_height="70sp" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal"
+				android:gravity="center_vertical|center_horizontal"
+				android:textColor="@color/result_text" android:shadowColor="@color/felt_shadow"
+				android:shadowDx="2.0" android:id="@+id/roll_activity_result"
+				android:text="00" android:layout_weight="2" android:textSize="56sp"
+				android:textStyle="bold" android:shadowRadius="1.0"
+				android:shadowDy="2.0" android:typeface="sans" />
+		</LinearLayout>
+
+	</com.droiddice.RollAreaView>
+
+	<com.droiddice.DiceSetSelectionGrid
+		android:layout_width="fill_parent" android:numColumns="2"
+		android:id="@+id/roll_activity_new_dice_set_selection"
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:layout_height="fill_parent"
+		android:layout_weight="2">
+	</com.droiddice.DiceSetSelectionGrid>
+
+</LinearLayout>
