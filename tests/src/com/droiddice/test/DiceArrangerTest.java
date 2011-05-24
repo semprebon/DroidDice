@@ -1,5 +1,5 @@
 /* Copyright (C) 2009 Andrew Semprebon */
-package com.droiddice;
+package com.droiddice.test;
 
 import com.droiddice.DiceArranger;
 import com.droiddice.DieView;

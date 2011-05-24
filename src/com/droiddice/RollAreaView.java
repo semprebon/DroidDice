@@ -6,6 +6,9 @@ import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.InsetDrawable;
 import android.graphics.drawable.LayerDrawable;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
 import android.hardware.SensorListener;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -15,7 +18,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class RollAreaView extends LinearLayout implements SensorListener {
+public class RollAreaView extends LinearLayout implements SensorEventListener {
 
 	private Animation mRollAnimation;
 	private DiceSetView mCurrentDiceSetView;
@@ -37,7 +40,6 @@ public class RollAreaView extends LinearLayout implements SensorListener {
     	mRollAnimation = AnimationUtils.loadAnimation(activity, R.anim.roll);
         setFocusable(true);
         setOnClickListener(new OnClickListener() {
-			@Override
 			public void onClick(View v) {
 				roll(true);
 			}
@@ -57,7 +59,6 @@ public class RollAreaView extends LinearLayout implements SensorListener {
     	setBackgroundDrawable(outFocusBackground);
         
         setOnFocusChangeListener(new View.OnFocusChangeListener() {
-			@Override
 			public void onFocusChange(View v, boolean hasFocus) {
 				if (hasFocus) {
 					v.setBackgroundDrawable(inFocusBackground);
@@ -102,18 +103,16 @@ public class RollAreaView extends LinearLayout implements SensorListener {
 		roll(true);
 	}
 
-	@Override
-	public void onAccuracyChanged(int arg0, int arg1) {
+	public void onAccuracyChanged(Sensor sensor, int accuracy) {
 	}
 
-	@Override
-	public void onSensorChanged(int sensor, float[] values) {
-        synchronized (this) {
+	public void onSensorChanged(SensorEvent event) {
+		synchronized (this) {
         	int overThreshold = 0;
         	float maxDelta = 0.0F;
         	for (int i = 0; i < mLastAcceleration.length; ++i) {
-       			float delta = Math.abs(values[i] - mLastAcceleration[i]);
-       			mLastAcceleration[i] = values[i];
+       			float delta = Math.abs(event.values[i] - mLastAcceleration[i]);
+       			mLastAcceleration[i] = event.values[i];
        			if (delta > SHAKE_THRESHOLD) {
        				++overThreshold;
        			}

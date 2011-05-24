@@ -139,6 +139,20 @@ public class DiceSet {
 		}
 		return total;
 	}
+	
+	public String getDisplayResult () {
+		StringBuilder ret = new StringBuilder();
+		int total = 0;
+		for (Die die : mDice) {
+			total += die.getValue();
+			ret.append(die.getDisplayValue());
+			ret.append(" + ");
+		}
+		ret.delete(ret.length() - 3, ret.length()-1);
+		ret.append(" = ");
+		ret.append(total);
+		return ret.toString();
+	}
 
 	public int getCount() {
 		return mDice.size();

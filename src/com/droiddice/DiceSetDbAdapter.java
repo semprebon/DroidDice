@@ -237,6 +237,41 @@ public class DiceSetDbAdapter {
 		return cursor.getLong(cursor.getColumnIndexOrThrow(DiceSetDbAdapter.KEY_ROWID));
 	}
 	
+	
+	public void moveDiceSet ( int oldPosition, int newPosition ) {
+		if ( oldPosition == newPosition ) {
+			return;
+		}
+		
+	  	String[] columns = new String[] { KEY_ROWID, KEY_NAME, KEY_DICE };
+        Cursor cursor = mDb.query(DATABASE_TABLE, columns, null, null, null, null, KEY_ROWID );
+        if (cursor == null) {
+        	Log.w(TAG, "No rows returned");
+        	return;
+        }
+        if ( oldPosition > newPosition ) {
+//        	cursor.moveToPosition(oldPosition);
+//        	
+//        	ContentValues args = new ContentValues();
+//        	for (int i = oldPosition; i > newPosition; i--) {
+//        		cursor.
+//                args.put(KEY_NAME, diceSet.getName());
+//                args.put(KEY_DICE, diceSet.toString());
+//
+//                return mDb.update(DATABASE_TABLE, args, KEY_ROWID + "=" + rowId, null) > 0;
+//        	}
+//        	
+//        	// stepping backward until new Position reached. during this update key_rowid
+//
+//        	
+//        	int currPos = Integer.parseInt( cursor.getString(cursor.getColumnIndexOrThrow(DiceSetDbAdapter.KEY_ROWID)) );
+//        	if ()
+        	
+        }
+        
+	}
+	
+	
     /**
      * Update the dice set using the details provided. The dice set to be updated is
      * specified using the rowId.
@@ -262,8 +297,8 @@ public class DiceSetDbAdapter {
         if (cursor != null) {
         	cursor.moveToFirst();
         	count = cursor.getInt(0); 
+        	cursor.close();
         }
-        cursor.close();
         return count;
     }
 

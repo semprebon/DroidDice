@@ -1,5 +1,11 @@
 /* Copyright (C) 2009 Andrew Semprebon */
-package com.droiddice;
+package com.droiddice.test;
+
+import com.droiddice.DiceSet;
+import com.droiddice.DiceSetDbAdapter;
+import com.droiddice.DiceSetSelectionGrid;
+import com.droiddice.DiceSetView;
+import com.droiddice.RollActivity;
 
 import android.app.Activity;
 import android.test.ActivityInstrumentationTestCase;
@@ -28,8 +34,8 @@ public class RollActivityTest extends ActivityInstrumentationTestCase<RollActivi
         mDbAdapter = new DiceSetDbAdapter(mActivity).open("data_test");
         mDbAdapter.getDatabase().execSQL("DELETE FROM " + DiceSetDbAdapter.DATABASE_TABLE);
         DiceSetDbAdapter.createInitialDiceSets(mDbAdapter.getDatabase());
-        mRollAreaView = mActivity.findViewById(R.id.roll_activity_roll_area);
-        mDiceSetSelectionView = (DiceSetSelectionGrid) mActivity.findViewById(R.id.roll_activity_new_dice_set_selection);
+        mRollAreaView = mActivity.findViewById(com.droiddice.R.id.roll_activity_roll_area);
+        mDiceSetSelectionView = (DiceSetSelectionGrid) mActivity.findViewById(com.droiddice.R.id.roll_activity_new_dice_set_selection);
     }
 
     
@@ -51,7 +57,7 @@ public class RollActivityTest extends ActivityInstrumentationTestCase<RollActivi
     	Log.d(TAG, "Started testClickOnRollAreaRollsDice");
     	sendKeys(KeyEvent.KEYCODE_DPAD_UP);
     	assertTrue(mRollAreaView.isFocused());
-        TextView result = (TextView) mActivity.findViewById(R.id.roll_activity_result);
+        TextView result = (TextView) mActivity.findViewById(com.droiddice.R.id.roll_activity_result);
         String s = (String) result.getText();
         Log.d(TAG, "starting roll is " + s);
     	
@@ -66,7 +72,7 @@ public class RollActivityTest extends ActivityInstrumentationTestCase<RollActivi
 
     public void testClickOnSelectionAreaLoadsRollArea() {
     	Log.d(TAG, "Started testClickOnSelectionAreaLoadsRollArea");
-    	DiceSetView view = (DiceSetView) mActivity.findViewById(R.id.roll_activity_dice_set);
+    	DiceSetView view = (DiceSetView) mActivity.findViewById(com.droiddice.R.id.roll_activity_dice_set);
     	DiceSet oldDiceSet = view.getDiceSet();
     	sendKeys(KeyEvent.KEYCODE_DPAD_DOWN);
     	sendKeys(KeyEvent.KEYCODE_DPAD_RIGHT);
@@ -76,7 +82,7 @@ public class RollActivityTest extends ActivityInstrumentationTestCase<RollActivi
 
     public void testLongClickOnSelectionAreaBringsUpContextMenu() {
     	Log.d(TAG, "Started testLongClickOnSelectionAreaBringsUpContextMenu");
-    	DiceSetView view = (DiceSetView) mActivity.findViewById(R.id.roll_activity_dice_set);
+    	DiceSetView view = (DiceSetView) mActivity.findViewById(com.droiddice.R.id.roll_activity_dice_set);
     	DiceSet oldDiceSet = view.getDiceSet();
     	Log.d(TAG, "currently in roll ares is " + oldDiceSet);
     	Log.d(TAG, "selection grid has " + mDiceSetSelectionView.getCount() + " child views");

@@ -1,7 +1,9 @@
 /* Copyright (C) 2009 Andrew Semprebon */
-package com.droiddice;
+package com.droiddice.test;
 
 import java.util.Arrays; 
+
+import com.droiddice.AdjustmentDie;
 import com.droiddice.DiceSet;
 import junit.framework.TestCase;
 

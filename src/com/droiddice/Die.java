@@ -1,7 +1,7 @@
 /* Copyright (C) 2009 Andrew Semprebon */
 package com.droiddice;
 
-interface Die {
+public interface Die {
 	int getMin();
 	int getMax();
 	int getValue();

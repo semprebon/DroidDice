@@ -80,7 +80,6 @@ public class DiceSetEditActivity extends Activity {
 		mNameText = (EditText) findViewById(R.id.dice_set_edit_activity_name);
 		mDiceSetView = (DiceSetEditView) findViewById(R.id.dice_set_edit_activity_dice_set);
 		mDiceSetView.setOnItemClickListener(new OnItemClickListener() {
-			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				mDiceSet.remove(((DieView) view).getDie());
 				mDiceSetView.notifyDataSetChanged();
@@ -91,7 +90,6 @@ public class DiceSetEditActivity extends Activity {
 		GridView mDieSelection = (GridView) findViewById(R.id.dice_set_edit_activity_die_selection);
 		mDieSelection.setAdapter(new DieTypeAdapter(dieTypes));
 		mDieSelection.setOnItemClickListener(new OnItemClickListener() {
-			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				Die die = ((DieView) view).getDie();
 				mDiceSet.add(die.toString());

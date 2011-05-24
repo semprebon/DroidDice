@@ -1,11 +1,12 @@
 /* Copyright (C) 2009 Andrew Semprebon */
-package com.droiddice;
+package com.droiddice.test;
 
 import java.util.HashMap;
 
 import junit.framework.TestCase;
 
 import com.droiddice.Die;
+import com.droiddice.SimpleDie;
 
 public class SimpleDieTest extends TestCase {
 	
