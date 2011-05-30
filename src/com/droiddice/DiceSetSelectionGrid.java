@@ -1,4 +1,4 @@
-/* Copyright (C) 2009 Andrew Semprebon */
+/* Copyright (C) 2009-2011 Andrew Semprebon */
 package com.droiddice;
 
 import java.util.Arrays;
@@ -10,13 +10,11 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.InsetDrawable;
-import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.RoundRectShape;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ResourceCursorAdapter;
 import android.widget.TextView;

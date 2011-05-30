@@ -1,18 +1,18 @@
 /* Copyright (C) 2009-2011 Andrew Semprebon */
 package com.droiddice;
 
-public class SimpleDie  implements Die {
+public class ExplodingDie  implements Die {
 
 	private Integer mSides;
 	private Integer mValue = 1;
 	
 	/* Constructors */
 	
-	public SimpleDie() {
+	public ExplodingDie() {
 		this(6);
 	}
 	
-	public SimpleDie(int sides) {
+	public ExplodingDie(int sides) {
 		mSides = sides;
 	}
 	
@@ -43,18 +43,27 @@ public class SimpleDie  implements Die {
 	}
 	
 	public int roll() {
-		mValue = getMin() + (int) Math.round(Math.random() * getSides() - 0.5);
+		mValue = 0;
+		int currentRoll = simpleRoll();
+		while (currentRoll == getSides()) {
+			mValue += getSides(); 
+		}
+		mValue += currentRoll;
 		return mValue;
 	}
 	
 	public String toString() {
-		return "d" + mSides;
+		return "x" + mSides;
 	}
 	
 	public boolean sameType(Die other) {
-		if (!(other instanceof SimpleDie)) {
+		if (!(other instanceof ExplodingDie)) {
 			return false;
 		}
-		return mSides.equals(((SimpleDie) other).getSides()); 
+		return mSides.equals(((ExplodingDie) other).getSides()); 
+	}
+	
+	private int simpleRoll() {
+		return getMin() + (int) Math.round(Math.random() * getSides() - 0.5);
 	}
 }

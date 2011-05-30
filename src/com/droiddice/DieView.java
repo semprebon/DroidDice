@@ -1,4 +1,4 @@
-/* Copyright (C) 2009 Andrew Semprebon */
+/* Copyright (C) 2009-2011 Andrew Semprebon */
 package com.droiddice;
 
 //TODO: Add shadow to dice?
@@ -12,8 +12,6 @@ import android.graphics.Canvas;
 import android.graphics.LightingColorFilter;
 import android.graphics.Paint;
 import android.graphics.Rect;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.GradientDrawable;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -114,7 +112,6 @@ public class DieView extends View {
 		int height = getHeight() - (getPaddingTop() + getPaddingBottom());
 		int xOffset = (width - mSize) / 2 + getPaddingTop();
 		int yOffset = (height - mSize) / 2 + getPaddingLeft();
-		int shadowHeight = 14;
 		
 		Paint paint = new Paint();
 		paint.setColorFilter(new LightingColorFilter(0xffffd9, 0));

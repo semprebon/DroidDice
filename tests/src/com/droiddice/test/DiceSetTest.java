@@ -1,10 +1,12 @@
-/* Copyright (C) 2009 Andrew Semprebon */
+/* Copyright (C) 2009-2011-2011 Andrew Semprebon */
 package com.droiddice.test;
 
 import java.util.Arrays; 
 
 import com.droiddice.AdjustmentDie;
 import com.droiddice.DiceSet;
+import com.droiddice.Die;
+
 import junit.framework.TestCase;
 
 public class DiceSetTest extends TestCase {
@@ -104,14 +106,14 @@ public class DiceSetTest extends TestCase {
 	}
 	
 	public void testCountOfShouldGetNumberOfDiceOfGivenType() {
-		assertEquals(2, (new DiceSet("2d4+d6")).countOf("d4"));
-		assertEquals(0, (new DiceSet("2d4+d6")).countOf("d8"));
+		assertHasCount(2, new DiceSet("2d4+d6"), "d4");
+		assertHasCount(0, new DiceSet("2d4+d6"), "d8");
 	}
 	
 	public void testAddShouldResultInOneMoreDice() {
 		DiceSet diceSet = new DiceSet("1d6");
 		diceSet.add("d6");
-		assertEquals(2, diceSet.countOf("d6"));
+		assertHasCount(2, diceSet, "d6");
 	}
 	
 	public void testAddAdjustmentWhenSetHasAdjustmentShouldCombineAdjustments() {
@@ -119,5 +121,15 @@ public class DiceSetTest extends TestCase {
 		diceSet.add("3");
 		assertEquals(2, diceSet.getCount());
 		assertEquals(5, diceSet.valueOf(1));
+	}
+	
+	private void assertHasCount(int expected, DiceSet diceSet, String s) {
+		int count = 0;
+		for (Die die : diceSet.asList()) {
+			if (die.toString().equals(s)) {
+				++count;
+			}
+		}
+		assertEquals(expected, count);
 	}
 }

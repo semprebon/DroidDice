@@ -1,7 +1,6 @@
-/* Copyright (C) 2009 Andrew Semprebon */
+/* Copyright (C) 2009-2011 Andrew Semprebon */
 package com.droiddice;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

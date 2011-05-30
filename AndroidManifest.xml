@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="com.droiddice"
-      android:versionCode="1"
-      android:versionName="1.0">
-    <uses-sdk android:maxSdkVersion="11" android:minSdkVersion="7" android:targetSdkVersion="10"></uses-sdk>
+      android:versionName="1.1" android:versionCode="7">
+    <uses-sdk android:maxSdkVersion="11" android:targetSdkVersion="10" android:minSdkVersion="4"></uses-sdk>
 
 
-    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    <application android:label="@string/app_name" android:icon="@drawable/icon_d20">
         <activity android:name=".RollActivity"
                   android:label="@string/app_name">
             <intent-filter>

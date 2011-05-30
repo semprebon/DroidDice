@@ -1,18 +1,21 @@
-/* Copyright (C) 2009 Andrew Semprebon */
+/* Copyright (C) 2009-2011 Andrew Semprebon */
 package com.droiddice;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
 import android.util.Log;
 
+/**
+ * represents a number of dice that are combined in a given way (currentlt, added)
+ */
 public class DiceSet {
 
 	ArrayList<Die> mDice;
 	String mName;
 
+	// TODO: Not sure why this is defined in this class...
     public static final Die[] DIE_TYPES = new Die[] { 
     	new SimpleDie(4),
     	new SimpleDie(6),
@@ -40,30 +43,11 @@ public class DiceSet {
 	}
 	
 	/**
-	 * Create a set from an array of die sizes
+	 * Convert a string dice specification into an array of dice 
 	 * 
-	 * @param maxValues array of die sizes
+	 * @param string dice string ("d4+2d6")
+	 * @return array of dice ([d4, d6, d6])
 	 */
-	public DiceSet(Integer[] maxValues) {
-		setDiceSizes(maxValues);
-		mName = toString();
-	}
-
-	private void setDiceSizes(Integer[] maxValues) {
-		mDice = new ArrayList<Die>();
-		for (int i = 0; i < maxValues.length; ++i) {
-			Die die = new SimpleDie(maxValues[i]);
-			mDice.add(die);
-		}
-	}
-	
-	/* Constructor helpers */
-	private static Integer[] filledArray(int count, int value) {
-		Integer[] result = new Integer[count];
-		Arrays.fill(result, value);
-		return result;
-	}
-	
 	private static ArrayList<Die> diceStringToArray(String string) {
 		String[] dieTypes = string.replace("-", "+-").split("\\+");
 		ArrayList<Die> dieSizes = new ArrayList<Die>();
@@ -86,52 +70,12 @@ public class DiceSet {
 		return dieSizes;
 	}
 
-	public String toString() {
-		StringBuffer result = new StringBuffer("");
-		Die lastDie = null;
-		int count = 0;
-		for (Die die : mDice) {
-			if (!die.sameType(lastDie)) {
-				addDieToString(result, count, lastDie);
-				count = 1;
-				lastDie = die;
-			} else {
-				++count;
-			}
-		}
-		addDieToString(result, count, lastDie);
-		return result.toString().replace("++", "+").replace("+-", "-");
-	}
-
-	private void addDieToString(StringBuffer result, int count, Die lastDie) {
-		if (lastDie != null) {
-			if (result.length() != 0) {
-				result.append("+");
-			}
-			result.append(defaultName(count, lastDie));
-		}
-	}
-	
 	/* Properties */
 
 	public void setDiceSizesAsString(String string) {
 		mDice = diceStringToArray(string);
 	}
 	
-	public List<Die> asList() {
-		return Collections.unmodifiableList(mDice);
-	}
-
-	private String defaultName(int count, Object die) {
-		return (count > 1) ? (count + die.toString()) : die.toString();
-	}
-	
-	public void roll() {
-		for (Die die : mDice) {
-			die.roll();
-		}
-	}
-
 	public int getResult() {
 		int total = 0;
 		for (Die die : mDice) {
@@ -158,18 +102,6 @@ public class DiceSet {
 		return mDice.size();
 	}
 
-	public int sizeOf(int i) {
-		if (i >= mDice.size()) {
-			return 0;
-		}
-		Die die = mDice.get(i);
-		return  die.getMax() + 1 - die.getMin();
-	}
-
-	public int valueOf(int i) {
-		return (i < mDice.size()) ? mDice.get(i).getValue() : 0;
-	}
-
 	public String getName() {
 		return mName;
 	}
@@ -178,16 +110,51 @@ public class DiceSet {
 		mName = name;
 	}
 
-	public int countOf(String s) {
+	/* Conversions */
+	/**
+	 * Generates the dice specification string that can be used to recreate the dice set
+	 */
+	public String toString() {
+		StringBuffer result = new StringBuffer("");
+		Die lastDie = null;
 		int count = 0;
 		for (Die die : mDice) {
-			if (die.toString().equals(s)) {
+			if (!die.sameType(lastDie)) {
+				addDieToString(result, count, lastDie);
+				count = 1;
+				lastDie = die;
+			} else {
 				++count;
 			}
 		}
-		return count;
+		addDieToString(result, count, lastDie);
+		return result.toString().replace("++", "+").replace("+-", "-");
+	}
+
+	private void addDieToString(StringBuffer result, int count, Die lastDie) {
+		if (lastDie != null) {
+			if (result.length() != 0) {
+				result.append("+");
+			}
+			result.append(defaultName(count, lastDie));
+		}
 	}
 	
+	private String defaultName(int count, Object die) {
+		return (count > 1) ? (count + die.toString()) : die.toString();
+	}
+	
+	public List<Die> asList() {
+		return Collections.unmodifiableList(mDice);
+	}
+
+	/* Actions */
+	public void roll() {
+		for (Die die : mDice) {
+			die.roll();
+		}
+	}
+
 	public void add(String string) {
 		mDice.addAll((new DiceSet(string)).mDice);
 		AdjustmentDie adjustment = null;
@@ -206,4 +173,19 @@ public class DiceSet {
 	public void remove(Die die) {
 		mDice.remove(die);
 	}
+
+	/* psuedo-properties - probably should make these true indexed properties */
+	
+	public int sizeOf(int i) {
+		if (i >= mDice.size()) {
+			return 0;
+		}
+		Die die = mDice.get(i);
+		return  die.getMax() + 1 - die.getMin();
+	}
+
+	public int valueOf(int i) {
+		return (i < mDice.size()) ? mDice.get(i).getValue() : 0;
+	}
+
 }

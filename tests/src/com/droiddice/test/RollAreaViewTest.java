@@ -1,15 +1,12 @@
-/* Copyright (C) 2009 Andrew Semprebon */
+/* Copyright (C) 2009-2011-2011 Andrew Semprebon */
 package com.droiddice.test;
 
 import com.droiddice.RollAreaView;
 
 import android.content.Context;
 import android.test.AndroidTestCase;
-import android.view.FocusFinder;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
 
 public class RollAreaViewTest extends AndroidTestCase {
 

@@ -10,7 +10,7 @@ public class RollActivity extends Activity {
         setContentView(R.layout.main);
     }
 }
-/* Copyright (C) 2009 Andrew Semprebon */
+/* Copyright (C) 2009-2011 Andrew Semprebon */
 package com.droiddice;
 
 //TODO: Implement combine (for percentile)
@@ -29,10 +29,8 @@ package com.droiddice;
 //TODO: retain set values (?)
 
 import java.util.ArrayList;
-import java.util.List;
 
 import android.app.Activity;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
@@ -68,7 +66,6 @@ public class RollActivity extends Activity {
 	
 	private boolean useAccelerometer = true;
 	protected boolean moveMode = false;
-	private int storedPosition; // for moving diceSets
 	private ArrayList<String> history; 
 
 	/* Other activities */
@@ -127,8 +124,6 @@ public class RollActivity extends Activity {
 				android.R.drawable.ic_menu_recent_history);
 		menu.add(0, SETTINGS_ID, 0, R.string.settings_menu_text).setIcon(
 				android.R.drawable.ic_menu_preferences);
-		menu.add(0, MULTIROLL_ID, 0, R.string.multiroll_menu_text).setIcon(
-				android.R.drawable.ic_menu_manage);
 		menu.add(0, CANCELMOVE_ID, 0, R.string.cancelmove_menu_text).setIcon(
 				android.R.drawable.ic_menu_close_clear_cancel);
 		return true;
@@ -302,10 +297,6 @@ public class RollActivity extends Activity {
 		history.add(0, diceSet.getName() + ": " + diceSet.getDisplayResult());
 	}
 	
-	private void moveDiceSet ( int oldPosition, int newPosition ) {
-		mDbAdapter.moveDiceSet(oldPosition, newPosition);
-	}
-
 	private void showHistory () {
 		
 		Intent intent = new Intent(this, HistoryActivity.class);

@@ -1,4 +1,4 @@
-/* Copyright (C) 2009 Andrew Semprebon */
+/* Copyright (C) 2009-2011 Andrew Semprebon */
 package com.droiddice;
 
 import android.app.Activity;
@@ -9,7 +9,6 @@ import android.graphics.drawable.LayerDrawable;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
-import android.hardware.SensorListener;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;

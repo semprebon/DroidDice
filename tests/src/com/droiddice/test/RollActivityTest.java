@@ -1,4 +1,4 @@
-/* Copyright (C) 2009 Andrew Semprebon */
+/* Copyright (C) 2009-2011-2011 Andrew Semprebon */
 package com.droiddice.test;
 
 import com.droiddice.DiceSet;
@@ -8,13 +8,13 @@ import com.droiddice.DiceSetView;
 import com.droiddice.RollActivity;
 
 import android.app.Activity;
-import android.test.ActivityInstrumentationTestCase;
+import android.test.ActivityInstrumentationTestCase2;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
 
-public class RollActivityTest extends ActivityInstrumentationTestCase<RollActivity> {
+public class RollActivityTest extends ActivityInstrumentationTestCase2<RollActivity> {
 
     private Activity mActivity;
     private View mRollAreaView;
@@ -73,11 +73,9 @@ public class RollActivityTest extends ActivityInstrumentationTestCase<RollActivi
     public void testClickOnSelectionAreaLoadsRollArea() {
     	Log.d(TAG, "Started testClickOnSelectionAreaLoadsRollArea");
     	DiceSetView view = (DiceSetView) mActivity.findViewById(com.droiddice.R.id.roll_activity_dice_set);
-    	DiceSet oldDiceSet = view.getDiceSet();
     	sendKeys(KeyEvent.KEYCODE_DPAD_DOWN);
     	sendKeys(KeyEvent.KEYCODE_DPAD_RIGHT);
     	sendKeys(KeyEvent.KEYCODE_DPAD_CENTER);
-        //assertFalse(oldDiceSet.toString().equals(view.getDiceSet().toString()));
     }
 
     public void testLongClickOnSelectionAreaBringsUpContextMenu() {

@@ -1,6 +1,9 @@
-/* Copyright (C) 2009 Andrew Semprebon */
+/* Copyright (C) 2009-2011 Andrew Semprebon */
 package com.droiddice;
 
+/**
+ * AdjustmentDie represents an adjustment (bonus or penalty) to the roll.
+ */
 public class AdjustmentDie implements Die {
 
 	private int mValue = 0;

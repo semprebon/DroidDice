@@ -4,6 +4,7 @@
 	
     <!-- SDK Locations -->
     <property name="android-tools" value="${sdk-folder}/tools" />
+    <property name="android-platform-tools" value="${sdk-folder}/platform-tools" />
     
     <!-- Application Package Name -->
     <property name="application-package" value="com.droiddice" />
@@ -77,23 +78,23 @@
     </condition>
 
     <!-- Tools -->
-    <condition property="aapt" value="${android-tools}/aapt.exe" else="${android-tools}/aapt" >
+    <condition property="aapt" value="${android-platform-tools}/aapt.exe" else="${android-platform-tools}/aapt" >
         <os family="windows"/>
     </condition>
-    <condition property="aidl" value="${android-tools}/aidl.exe" else="${android-tools}/aidl" >
+    <condition property="aidl" value="${android-platform-tools}/aidl.exe" else="${android-platform-tools}/aidl" >
         <os family="windows"/>
     </condition>
-    <condition property="adb" value="${android-tools}/adb.exe" else="${android-tools}/adb" >
+    <condition property="adb" value="${android-platform-tools}/adb.exe" else="${android-platform-tools}/adb" >
         <os family="windows"/>
     </condition>
-    <condition property="dx" value="${android-tools}/dx.bat" else="${android-tools}/dx" >
+    <condition property="dx" value="${android-platform-tools}/dx.bat" else="${android-platform-tools}/dx" >
         <os family="windows"/>
     </condition>
     <condition property="apk-builder" value="${android-tools}/apkbuilder.bat" else="${android-tools}/apkbuilder" >
         <os family="windows"/>
     </condition>
 
-    <property name="android-jar" value="${sdk-folder}/android.jar" />
+    <property name="android-jar" value="${sdk-folder}/platforms/android-11/android.jar" />
 
     <!-- Rules -->
 

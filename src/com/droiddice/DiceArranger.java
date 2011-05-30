@@ -1,8 +1,12 @@
-/* Copyright (C) 2009 Andrew Semprebon */
+/* Copyright (C) 2009-2011 Andrew Semprebon */
 package com.droiddice;
 
 import android.util.Log;
 
+/**
+ * DiceArranger determines how to arrange a given number of dice into a given space (width x height).
+ * It will determine the size of the dice, as well at the number to display per row.
+ */
 public class DiceArranger {
 
 	int mColumns;
